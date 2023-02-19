@@ -1,0 +1,63 @@
+* {
+    /* margin: 0px;
+    padding: 0px; */
+    background-color: #7B1825;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#heading {
+    color: yellow;
+
+}
+
+.text-mid {
+    text-align: center;
+}
+
+#inp {
+    display: flex;
+    justify-content: center;
+}
+
+#inp input {
+    width: 98%;
+    height: 42px;
+    background-color: #4e172f;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#row {
+    display: grid;
+    height: 369px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+input {
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+button {
+    background-color: white;
+    margin: 5px 0px 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+#CButton {
+    background-color: red;
+}
+
+#eqButton {
+    background-color: rgb(43, 244, 43);
+}
